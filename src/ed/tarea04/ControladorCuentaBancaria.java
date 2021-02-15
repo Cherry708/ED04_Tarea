@@ -12,6 +12,10 @@ public class ControladorCuentaBancaria {
         // crea
         CuentaBancaria miCuenta = new CuentaBancaria("Jorge Izquierdo", "00491500051234567892");
 
+        operacionesCuenta(miCuenta);
+    }
+
+    private static void operacionesCuenta(CuentaBancaria miCuenta) {
         try {
             miCuenta.ingresar(10000);
         } catch (Exception e) {
