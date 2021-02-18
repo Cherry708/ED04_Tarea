@@ -3,8 +3,8 @@ package ed.tarea04;
 /**
  * Clase CuentaBancaria, que permite el uso básico de una cuenta bancaria
  *
- * @author Cristian Jorge García Marcos
- * @version 11.20
+ * @author Cristian Jorge García Marcos y Rubén Serrano Cano
+ * @version 11.21
  */
 
 public class CuentaBancaria {
@@ -43,36 +43,84 @@ public class CuentaBancaria {
         saldo = 0;
     }
 
+    /**
+     *
+     * @return titular
+     */
     public String getTitular() {
         return titular;
     }
 
+    /**
+     *
+     * @param titular
+     */
     public void setTitular(String titular) {
         this.titular = titular;
     }
 
+    /**
+     *
+     * @return saldo
+     */
     public double getSaldo() {
         return saldo;
     }
 
+    /**
+     *
+     * @param saldo
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
+    /**
+     *
+     * @return entidad
+     */
     public String getEntidad() {
         return entidad;
     }
 
+    /**
+     *
+     * @param entidad
+     */
     public void setEntidad(String entidad) {
         this.entidad = entidad;
     }
 
+    /**
+     *
+     * @return oficina
+     */
     public String getOficina() {
         return oficina;
     }
 
+    /**
+     *
+     * @param oficina
+     */
     public void setOficina(String oficina) {
         this.oficina = oficina;
+    }
+
+    /**
+     *
+     * @return numCuenta
+     */
+    public String getNumCuenta() {
+        return numCuenta;
+    }
+
+    /**
+     *
+     * @param numCuenta
+     */
+    public void setNumCuenta(String numCuenta) {
+        this.numCuenta = numCuenta;
     }
 
     /**
