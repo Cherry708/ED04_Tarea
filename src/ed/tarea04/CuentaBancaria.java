@@ -44,7 +44,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Devuelve el nombre del titular.
      * @return titular
      */
     public String getTitular() {
@@ -52,7 +52,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Asigna el nombre del titular al parametro de entrada suministrado.
      * @param titular
      */
     public void setTitular(String titular) {
@@ -60,7 +60,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Devuelve el saldo de la cuenta.
      * @return saldo
      */
     public double getSaldo() {
@@ -68,7 +68,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Asigna el saldo al parámetro de entrada suministrado.
      * @param saldo
      */
     public void setSaldo(double saldo) {
@@ -76,7 +76,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Devuelve la entidad de la cuenta.
      * @return entidad
      */
     public String getEntidad() {
@@ -84,7 +84,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Asigna la entidad al parámetro de entrada suministrado.
      * @param entidad
      */
     public void setEntidad(String entidad) {
@@ -92,7 +92,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Devuelve el número de la oficina.
      * @return oficina
      */
     public String getOficina() {
@@ -100,7 +100,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Asigna el número de la oficina al parámetro de entrada suministrado.
      * @param oficina
      */
     public void setOficina(String oficina) {
@@ -108,7 +108,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Devuelve el número de cuenta.
      * @return numCuenta
      */
     public String getNumCuenta() {
@@ -116,7 +116,7 @@ public class CuentaBancaria {
     }
 
     /**
-     *
+     * Asigna el número de cuenta al parámetro de entrada suministrado.
      * @param numCuenta
      */
     public void setNumCuenta(String numCuenta) {
